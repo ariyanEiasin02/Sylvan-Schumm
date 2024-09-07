@@ -9,8 +9,11 @@ module.exports = {
       fontFamily:{
         "montserrat":"Montserrat, sans-serif"
       },
-      colors:{
-        "amii" : "linear-gradient(180deg, #FCA311 0%, #14213D 100%)"
+      backgroundImage:{
+        "recentone" : "url('./img/recentone.png')",
+        "recenttwo" : "url('./img/recenttwo.png')",
+        "tiktokbanner" : "url('./img/tiktokbanner.png')",
+        "recentthree" : "url('./img/recentthree.png')",
       }
     },
   },
