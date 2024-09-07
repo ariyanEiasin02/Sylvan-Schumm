@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylvan Schumm/Case</title>
     <link href="./output.css" rel="stylesheet">
     <!-- font family -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -24,7 +25,7 @@
 
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <!-- nav part start -->
     <nav class="bg-[#FFF] absolute top-0 left-0 w-full z-20">
         <div class="max-w-container mx-auto">
@@ -48,15 +49,15 @@
                             class="md:flex px-4 md:px-0 py-6 md:py-0 absolute md:static top-[60px] bg-red-500 md:bg-transparent duration-300 left-0 w-full gap-x-10">
                             <li class="">
                                 <a class="relative duration-300 text-base text-white md:text-[#333333] hover:text-[#FCA311] font-montserrat font-medium after:content-[''] after:absolute after:w-0 hover:after:w-full after:h-[3px] after:-bottom-[3px] after:opacity-0 after:duration-300 hover:after:opacity-100 after:bg-[#FCA311] after:left-0"
-                                    href="#">Home</a>
+                                    href="./index.html">Home</a>
                             </li>
                             <li class="mt-2 md:mt-0">
                                 <a class="relative duration-300 text-base text-white md:text-[#333333] hover:text-[#FCA311] font-montserrat font-medium after:content-[''] after:absolute after:w-0 hover:after:w-full after:h-[3px] after:-bottom-[3px] after:opacity-0 after:duration-300 hover:after:opacity-100 after:bg-[#FCA311] after:left-0"
-                                    href="#">Case Studies</a>
+                                    href="./case.html">Case Studies</a>
                             </li>
                             <li class="mt-8 md:mt-0">
                                 <a class="bg-[#FCA311] py-4 px-10 rounded-xl font-montserrat font-medium text-base text-white"
-                                    href="#">Contact Us</a>
+                                    href="./contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -137,7 +138,7 @@
             <div class="flex justify-center">
                 <h2 class="text-[#14213D] font-montserrat font-bold text-3xl text-center">Recent Case Studies</h2>
             </div>
-            <div class="flex flex-wrap justify-between mt-24 w-[80%] mx-auto gap-x-16 gap-y-16">
+            <div class="flex z-10 relative flex-wrap justify-between mt-24 w-[80%] mx-auto gap-x-16 gap-y-16">
                 <div class="w-[310px] rounded-[30px] bg-no-repeat bg-center bg-cover bg-recentone h-[464px] flex justify-center items-end">
                     <div class="py-4 px-4">
                         <h3 class="font-montserrat font-bold text-[22px] text-white">Team Building Solved </h3>
@@ -163,6 +164,7 @@
                         <p class="font-montserrat font-normal text-white text-sm">when an unknown printer took a galley of type and scrambled it to make a type</p>
                     </div>
                 </div>
+                <div class="absolute z-[-1] -bottom-20 -right-[520px] w-[884px] h-[884px] bg-[#F5F5F5] rounded-full"></div>
             </div>
         </div>
     </section>
@@ -258,7 +260,7 @@
     <!-- Footer part end -->
     <section class="bg-[#333] py-[10px]">
         <div class="max-w-container">
-            <p class="text-white text-center font-montserrat font-bold text-base">Copyright © 2024 | Sylvan Schumm | All Rights Reserved.</p>
+            <p class="text-white text-center font-montserrat font-bold text-sm md:text-base">Copyright © 2024 | Sylvan Schumm | All Rights Reserved.</p>
         </div>
     </section>
     <!-- script part -->
